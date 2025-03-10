@@ -11,7 +11,6 @@ The workflow is triggered on pushes to the `main` branch or manually via workflo
 - Runs `npm install` to install dependencies in `package.json`
 - Runs `npm run build` to run the build process
 - Creates a build artifact with name `wpcom` which is required for WordPress.com's GitHub Deployment feature. The artifact contains the built plugin files, excluding development files like:
-
   - Git files
   - Source files
   - Node modules
